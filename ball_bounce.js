@@ -69,6 +69,7 @@ class Ball {
 
     };
 
+    //checks if circle has bounced off the wall
     bounce () {
         if (this.circle_x > this.div_width) {
             this.bounced_x = true;
