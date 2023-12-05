@@ -10,6 +10,6 @@ Adding a few details fo commiting to the branch
 1. open browser
 2. something
 
-##A test of commiting branch
+## A test of commiting branch
 1. test
 2. test 
