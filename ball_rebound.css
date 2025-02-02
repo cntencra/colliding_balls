@@ -2,11 +2,12 @@
 
 .bounce_background {
     max-width:80%;
-    min-height: 300px;
+    min-height: 500px;
     margin: auto;
     background-color: green;
     border-color: black;
 }
+
 
 div .ball {
     position: absolute;
@@ -15,4 +16,5 @@ div .ball {
     width: 80px;
     border-radius: 40px;
     background: radial-gradient(circle at 20px 100px, rgb(255,144,0), rgb(255 50	0));
+    border: black   10px;
 }

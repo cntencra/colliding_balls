@@ -3,7 +3,7 @@
 svg circle elements 
 update location using javascript
 
-Adding a few details fo commiting to the branch
+Adding a few details for commiting to the branch
 
 ## learning branches
 

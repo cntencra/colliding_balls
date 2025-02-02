@@ -51,7 +51,7 @@ class Ball {
 
     move() {
         var now = new Date().getTime()/1000;
-        var dt = now - this.time ;
+        var dt = now - this.time ; //time delta
 
         this.wall_collision();
 
@@ -92,11 +92,15 @@ class Ball {
 const balls = [];
 const no_balls = 5;
 
+
 for (let i = 1; i <= no_balls; i++) {
     let new_ball = new Ball(`ball_${i}`);
     balls.push(new_ball);
   }
 
-for (const ball_obj of balls) {                                                                           
+
+for (const ball_obj of balls) {           
+    //ball obj methods and parameters not accessible in global scope
+    //bind provides methods and parameters of the object to the local scope
     window.setInterval(ball_obj.move.bind(ball_obj), 0.5);
   }
